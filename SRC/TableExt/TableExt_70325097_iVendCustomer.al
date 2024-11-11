@@ -35,13 +35,14 @@ tableextension 70325097 "iVendCustomer" extends Customer //18
             Description = 'CitiXsysiVend2.00';
             DataClassification = CustomerContent;
         }
-        field(70325080; "iVendCXS_SourceKey"; BigInteger)
+        //field(70325080; "iVendCXS_SourceKey"; BigInteger)
+        field(70325080; "iVendCXS_SourceKey"; Text[50])
         {
             Caption = 'Source Key';
             Description = 'CitiXsysiVend2.00';
             DataClassification = CustomerContent;
-            ObsoleteState = Removed;
-            ObsoleteReason = 'Data Type Changed to Text';
+            //ObsoleteState = Removed;
+            //ObsoleteReason = 'Data Type Changed to Text';
         }
         //>>OA
         field(70325081; "iVendCXS_RetVATBusPostGroup"; Code[20])
