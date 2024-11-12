@@ -82,12 +82,10 @@ table 70325078 "iVendIntegrationLogNAVToiVend"
             Caption = 'Message';
             Description = 'Message/Error';
         }
-        // field(10; "API URL Address"; Text[250])
-        // {
-        //     DataClassification = CustomerContent;
-        //     Caption = 'API URL Address';
-        //     Description = 'It Saves URL Path';
-        // }
+        field(10; "Ivend Table Name"; Text[250])
+        {
+            DataClassification = ToBeClassified;
+        }
         field(11; Priority; Integer)
         {
             DataClassification = CustomerContent;

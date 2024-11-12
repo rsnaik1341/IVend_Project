@@ -30,6 +30,10 @@ page 70325077 "iVendIntegrationLogNAVToiVend"
                 ApplicationArea = All;
                 ToolTip = 'Specifies the value of the Table No. field.', Comment = '%';
             }
+            field("Ivend Table Name"; Rec."Ivend Table Name")
+            {
+                ApplicationArea = All;
+            }
             field("Source Key"; Rec."Source Key")
             {
                 ApplicationArea = All;
